@@ -52,8 +52,7 @@ body{
 
 .lose{
   font-size: 20px;
-  transform: scale(0.9);
-  border-radius: 50%;
+  transform: scale(0.7);
   background-color: black;
   color: white;
 }
