@@ -24,9 +24,17 @@ time, mark, audio, video {
 
 body{
   background-color: black;
-  display: flex;
+  width: 100%;
+  }
+  .container{
+    padding-left: 25px;
+    width: 1100px;
+    padding: 70px 0;
+    margin: 0 auto;
+  }
+#container{
+display: flex;
   flex-wrap: wrap;
-  padding-left:70px;
 }
 
 .box{
@@ -52,7 +60,57 @@ body{
 
 .lose{
   font-size: 20px;
-  transform: scale(0.7);
+  transform: scale(0.8);
   background-color: black;
   color: white;
+}
+
+button{
+  width: 80px;
+  height: 80px;
+  margin-top: 10px;
+  margin-left: 18px;
+  background-color: rgb(36, 36, 36);
+  color: white;
+  border: solid 2px white;
+  font-size: 30px; 
+  cursor: pointer;
+  display: block;
+}
+
+button span{
+  color: white;
+  font-size: 8px;
+  display: block;
+}
+.btnb{
+  opacity: 0.8;
+}
+
+.card-container{
+  padding-left: 40px;
+  margin: 0 auto;
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card{
+  width: 170px;
+  height: 170px;
+  background-color:white;
+  border: solid 3px white;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 170px;
+  color: black;
+  font-size: 40px;
+}
+
+.defaulut{
+  background-image: url('d.jpg');
+  background-size: contain;
+}
+.close{
+  opacity: 0;
 }
